@@ -38,6 +38,6 @@ Wbar(selector, maxvalue, barlength, barheight)
 * 사용 방법
   * 전체를 감싸는 컨테이너의 클래스를 입력하여 내부의 모든 바 그래프에 같은 기준의 최대값을 적용함.
 ```js
- var product_sales = new Wbar('.skills', 100);
+ var skills = new Wbar('.skills', 100);
 ```
 
