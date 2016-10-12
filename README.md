@@ -2,6 +2,8 @@
 #Wbar object
 > 간단한 마크업 만으로도 쉽게 활용 가능한 바 그래프를 생성해주는 자바스크립트 오브젝트 입니다.
 
+[**DEMO**](https://hanwong.github.io/Wbar/)
+
 -
 
 ### 1. Markup
