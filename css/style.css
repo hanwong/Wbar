@@ -1,0 +1,93 @@
+
+.wbar .wbar-info {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.wbar .wbar-info span {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  font-size: 14px;
+  line-height: 36px;
+}
+
+.wbar .wbar-info span:first-child {
+  color: #333c48;
+}
+
+.wbar .wbar-info span:last-child {
+  color: #9fa9ba;
+}
+
+.wbar .bar {
+  position: relative;
+  margin-bottom: 8px;
+  border-radius: 9px;
+  background-color: #e2e7ee;
+}
+
+.wbar .value {
+  position: absolute;
+  height: 18px;
+  border-radius: 9px;
+}
+
+.info-body {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #fff;
+}
+
+.info-bar {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.skills {
+  height: 500px;
+  width: 500px;
+  background: #fff;
+  box-sizing: border-box;
+  border: 1px solid #e6eaee;
+  border-top: 4px solid #1992eb;
+  border-radius: 4px;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.skills h3 {
+  margin-left: 30px;
+  margin-bottom: 55px;
+  color: #1d2531;
+  font-size: 24px;
+  align-self: flex-start;
+}
+
+.skills h3 a {
+  color: black;
+}
+
+.skills .wbar {
+  position: relative;
+  height: 120px;
+}
+
+.skills .wbar .wbar-value {
+  font-size: 20px;
+}
+
+.skills .wbar img {
+  position: absolute;
+  top: -40px;
+  width: 50px;
+}
